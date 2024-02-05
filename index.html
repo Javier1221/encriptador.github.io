@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Enlace para hacer uso de mi hoja de estilos css-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--Enlace para hacer uso de boostrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Desafío 1</title>
+
+
+
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/Group 3.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Challenge Encriptador
+          </a>
+        </div>
+      </nav>
+
+
+    <div class="row">
+        <div class="col" style="background: var(--Light-blue-light-blue-100, #F3F5FC);">
+            <div class="row"> 
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="ingreso" placeholder="Ingresa el texto" >
+                        </div>
+                        <div class="btn-group" style="margin-bottom: 10px; margin-left: 10px;">
+                            <button type="button" class="btn btn-primary" id="encriptar" onclick="encript()">Encriptar</button>
+                            <button type="button" class="btn btn-primary" id="desencriptar" onclick="dencript()">Descencriptar</button>
+
+                          </div>
+                    
+            </div>
+
+        </div>
+
+        <div class="col" style="background: var(--Light-blue-light-blue-100, #F3F5FC);text-align: center;">
+            <h1 style="color: #0A3871; font-family: Inter;">Texto Encriptado/Desencriptado</h1>
+            <div style="background-color: white; text-align: center;" id="resultado">
+                <textarea name="" id="mostrar" cols="30" rows="10"></textarea>
+               
+                <p> </p>
+
+
+
+
+                <!--
+                    
+                    
+                     <input type="text" class="form-control" id="mostrar" placeholder="" >
+                    <img src="assets/Muñeco.png" class="img-fluid" alt="..." id="no1">
+                <h1 style="padding-top: 10px; color: #343A40;">Ningún mensaje fue encontrado</h1>
+                <h3 id="texto1">Ingresa el texto que desees encriptar o desencriptar.</h3>-->
+            </div>       
+        </div>
+
+
+    <div>
+
+
+
+
+
+         
+   
+
+
+
+
+
+
+
+
+
+    
+</body>
+<script src="/app.js"></script>
+</html>
